@@ -1,0 +1,13 @@
+@import "tailwindcss";
+@import "tailwindcss/utilities";
+
+@theme {
+  /* Colors */
+  --color-primary: #572c23;   /* dark brown */
+  --color-secondary: #ffefe2; /* cream */
+  --color-accent: #221f21;    /* dark charcoal */
+  --color-input: rgb(255 239 226 / 0.35);
+  /* Fonts */
+  --font-heading: "Playfair Display", serif;
+  --font-body: "Roboto", sans-serif;
+}

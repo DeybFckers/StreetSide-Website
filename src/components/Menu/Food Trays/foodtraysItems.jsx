@@ -1,0 +1,135 @@
+import bistektagalog from "../../../assets/Menu/Food Trays/bistektagalog.jpg";
+import bakareta from "../../../assets/Menu/Food Trays/bakareta.jpg";
+import cajunmixseafoods from "../../../assets/Menu/Food Trays/cajunmixseafoods.jpg";
+import lapulapu from "../../../assets/Menu/Food Trays/lapulapu.jpg";
+import orangechicken from "../../../assets/Menu/Food Trays/orangechicken.jpg"; 
+import logo from "/logo.jpg"; 
+
+export const foodtraysItems = [
+  {
+    name: "Bistek Tagalog",
+    price: 260,
+    image: bistektagalog,
+  },
+  {
+    name: "Buffalo Chicken",
+    price: 250,
+    image: logo,
+  },
+  {
+    name: "Chicken Curry",
+    price: 250,
+    image: logo,
+  },
+  {
+    name: "Gralic Shrimp",
+    price: 250,
+    image: logo,
+  },
+  {
+    name: "Salt & Pepper Shrimp",
+    price: 260,
+    image: logo,
+  },
+  {
+    name: "Creamy Butter Shrimp",
+    price: 260,
+    image: logo,
+  },
+  {
+    name: "Beef Broccoli",
+    price: 260,
+    image: logo,
+  },
+  {
+    name: "Beef Ampalaya",
+    price: 250,
+    image: logo,
+  },
+  {
+    name: "Battered Chicken",
+    price: 230,
+    image: logo,
+  },
+  {
+    name: "BAM-I Pork",
+    price: 150,
+    image: logo,
+  },
+  {
+    name: "BAM-I Seafoods",
+    price: 160,
+    image: logo,
+  },
+  {
+    name: "BAM-I Chicken",
+    price: 140,
+    image: logo,
+  },
+  {
+    name: "BAM-I Special",
+    price: 220,
+    image: logo,
+  },
+  {
+    name: "Pancit Miki Pork",
+    price: 140,
+    image: logo,
+  },
+  {
+    name: "Pancit Miki Seafoods",
+    price: 150,
+    image: logo,
+  },
+  {
+    name: "Pancit Miki Chicken",
+    price: 130,
+    image: logo,
+  },
+  {
+    name: "Pancit Miki Special",
+    price: 210,
+    image: logo,
+  },
+  {
+    name: "Canton Guisado Pork",
+    price: 140,
+    image: logo,
+  },
+  {
+    name: "Canton Guisado Seafoods",
+    price: 160,
+    image: logo,
+  },
+  {
+    name: "Canton Guisado Chicken",
+    price: 130,
+    image: logo,
+  },
+  {
+    name: "Canton Guisado Special",
+    price: 210,
+    image: logo,
+  },
+  {
+    name: "Sotanghon Guisado Pork",
+    price: 150,
+    image: logo,
+  },
+  {
+    name: "Sotanghon Guisado Seafoods",
+    price: 160,
+    image: logo,
+  },
+  {
+    name: "Sotanghon Guisado Chicken",
+    price: 140,
+    image: logo,
+  },
+  {
+    name: "Sotanghon Guisado Special",
+    price: 210,
+    image: logo,
+  },
+
+];
