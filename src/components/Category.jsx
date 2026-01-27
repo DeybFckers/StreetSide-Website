@@ -28,7 +28,17 @@ export default function Category({ category, setCategory, search, setSearch }) {
     <div id="menu" className="max-w-7xl mx-auto px-4 md:px-6 lg:px-8 mt-6">
       <div className="bg-secondary rounded-2xl shadow-lg p-4 mb-6">
 
-        {/* Tablet & Desktop */}
+        <div className="hidden lg:flex justify-between w-full">
+          {categories.map(cat => (
+            <CategoryButton
+              key={cat.id}
+              cat={cat}
+              active={category === cat.id}
+              onClick={() => setCategory(cat.id)}
+            />
+          ))}
+        </div>
+
         <div className="hidden md:flex lg:hidden gap-3">
           {categories.slice(0, tabletCount).map(cat => (
             <CategoryButton
