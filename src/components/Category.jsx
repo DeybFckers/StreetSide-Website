@@ -17,6 +17,7 @@ const categories = [
 export default function Category({ category, setCategory, search, setSearch }) {
   const [showOverlay, setShowOverlay] = useState(false);
   const visibleCount = 2; // ✅ ONLY TWO ON MOBILE
+  const tabletCount = 6;
 
   const handleCategorySelect = (catId) => {
     setCategory(catId);
@@ -28,8 +29,8 @@ export default function Category({ category, setCategory, search, setSearch }) {
       <div className="bg-secondary rounded-2xl shadow-lg p-4 mb-6">
 
         {/* Tablet & Desktop */}
-        <div className="hidden md:flex justify-between w-full">
-          {categories.map(cat => (
+        <div className="hidden md:flex lg:hidden gap-3">
+          {categories.slice(0, tabletCount).map(cat => (
             <CategoryButton
               key={cat.id}
               cat={cat}
@@ -37,7 +38,18 @@ export default function Category({ category, setCategory, search, setSearch }) {
               onClick={() => setCategory(cat.id)}
             />
           ))}
+
+          <button
+            onClick={() => setShowOverlay(true)}
+            className="flex flex-col items-center justify-center px-4 py-3
+                      min-w-20 rounded-xl bg-secondary hover:bg-secondary/90
+                      transition-all active:scale-95"
+          >
+            <span className="text-2xl">...</span>
+            <span className="text-gray-800 text-sm font-semibold">More</span>
+          </button>
         </div>
+
 
         {/* Mobile */}
         <div className="md:hidden">
