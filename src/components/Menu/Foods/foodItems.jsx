@@ -4,8 +4,13 @@ import logo from "/logo.jpg";
 export const foodItems = [
   {
     name: "Burger Bomb",
-    price: 160,
+    price: 170,
     image: burgerbomb,
+  },
+  {
+    name: "French Fries",
+    price: 50,
+    image: logo,
   },
   {
     name: "Cheesy Fries",

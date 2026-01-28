@@ -20,12 +20,12 @@ export const noncoffeeItems = [
   },
   {
     name: "Strawberry Milk",
-    price: 98,
+    price: 95,
     image: logo,
   },
   {
     name: "Nutella Latte",
-    price: 120,
+    price: 130,
     image: logo,
   },
   {
@@ -35,7 +35,7 @@ export const noncoffeeItems = [
   },
   {
     name: "Pink Milk",
-    price: 120,
+    price: 100,
     image: logo,
   },
 ];

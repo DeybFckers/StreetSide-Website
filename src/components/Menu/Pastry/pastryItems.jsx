@@ -8,12 +8,12 @@ export const pastryItems = [
   },
   {
     name: "Choco Chip Cookies",
-    price: 55,
+    price: 30,
     image: logo,
   },
   {
     name: "Peanut Butter Cookies",
-    price: 55,
+    price: 30,
     image: logo,
   },
 ];

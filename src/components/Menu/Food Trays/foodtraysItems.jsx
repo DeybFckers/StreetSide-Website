@@ -8,7 +8,12 @@ import logo from "/logo.jpg";
 export const foodtraysItems = [
   {
     name: "Bistek Tagalog",
-    price: 260,
+    price: 250,
+    image: bistektagalog,
+  },
+  {
+    name: "Chicken Afritada",
+    price: 250,
     image: bistektagalog,
   },
   {
@@ -22,7 +27,7 @@ export const foodtraysItems = [
     image: logo,
   },
   {
-    name: "Gralic Shrimp",
+    name: "Garlic Shrimp",
     price: 250,
     image: logo,
   },
@@ -68,7 +73,7 @@ export const foodtraysItems = [
   },
   {
     name: "BAM-I Special",
-    price: 220,
+    price: 210,
     image: logo,
   },
   {
@@ -78,7 +83,7 @@ export const foodtraysItems = [
   },
   {
     name: "Pancit Miki Seafoods",
-    price: 150,
+    price: 160,
     image: logo,
   },
   {

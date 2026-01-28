@@ -10,12 +10,12 @@ export const ricemealItems = [
   },
   {
     name: "Cajun Belly",
-    price: 130,
+    price: 150,
     image: cajunbelly,
   },
   {
     name: "Loco Moco",
-    price: 140,
+    price: 150,
     image: logo,
   },
   {
