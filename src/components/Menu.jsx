@@ -8,8 +8,8 @@ import Soda from "./Menu/Soda/Soda";
 import { sodaItems } from "./Menu/Soda/sodaItems";
 import NonCoffee from "./Menu/Non Coffee/NonCoffee";
 import { noncoffeeItems } from "./Menu/Non Coffee/noncoffeeItems";
-import FoodTrays from "./Menu/Food Trays/FoodTrays";
-import { foodtraysItems } from "./Menu/Food Trays/foodtraysItems";
+import ShortOrder from "./Menu/Short Order/ShortOrder";
+import { shortorderItems } from "./Menu/Short Order/shortorderItems";
 import Soup from "./Menu/Soup/Soup";
 import { soupItems } from "./Menu/Soup/soupItems";
 import Lomi from "./Menu/Lomi/Lomi";
@@ -30,7 +30,7 @@ export default function Menu({ category, search = "" }) {
   const filteredNonCoffeeItems = category === "Non Coffee" ? filterBySearch(noncoffeeItems) : [];
   const filteredFoodItems = category === "Foods" ? filterBySearch(foodItems) : [];
   const filteredRiceMealItems = category === "Rice Meal" ? filterBySearch(ricemealItems) : [];
-  const filteredFoodTraysItems = category === "Food Trays" ? filterBySearch(foodtraysItems) : [];
+  const filteredShortOrderItems = category === "Short Order" ? filterBySearch(shortorderItems) : [];
   const filteredSoupItems = category === "Soup" ? filterBySearch(soupItems) : [];
   const filteredSodaItems = category === "Soda" ? filterBySearch(sodaItems) : [];
   const filteredLomiItems = category === "Lomi" ? filterBySearch(lomiItems) : [];
@@ -42,7 +42,7 @@ export default function Menu({ category, search = "" }) {
     filteredNonCoffeeItems.length +
     filteredFoodItems.length +
     filteredRiceMealItems.length +
-    filteredFoodTraysItems.length +
+    filteredShortOrderItems.length +
     filteredSoupItems.length +
     filteredSodaItems.length +
     filteredLomiItems.length +
@@ -56,7 +56,7 @@ export default function Menu({ category, search = "" }) {
         {filteredNonCoffeeItems.map((noncoffee, index) => <NonCoffee key={index} noncoffee={noncoffee} />)}
         {filteredFoodItems.map((food, index) => <Foods key={index} food={food} />)}
         {filteredRiceMealItems.map((ricemeal, index) => <RiceMeal key={index} ricemeal={ricemeal} />)}
-        {filteredFoodTraysItems.map((foodtray, index) => <FoodTrays key={index} foodtray={foodtray} />)}
+        {filteredShortOrderItems.map((shortorder, index) => <ShortOrder key={index} shortorder={shortorder} />)}
         {filteredSoupItems.map((soup, index) => <Soup key={index} soup={soup} />)}
         {filteredSodaItems.map((soda, index) => <Soda key={index} soda={soda} />)}
         {filteredLomiItems.map((lomi, index) => <Lomi key={index} lomi={lomi} />)}

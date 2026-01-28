@@ -6,7 +6,7 @@ const categories = [
   { id: 'Non Coffee', emoji: '🥛', label: 'Non Coffee' },
   { id: 'Foods', emoji: '🍔', label: 'Foods' },
   { id: 'Rice Meal', emoji: '🍚', label: 'Rice Meal' },
-  { id: 'Food Trays', emoji: '🍽️', label: 'Food Trays' },
+  { id: 'Short Order', emoji: '🍽️', label: 'Short Order' },
   { id: 'Soup', emoji: '🍲', label: 'Soup' },
   { id: 'Soda', emoji: '🥤', label: 'Soda' },
   { id: 'Lomi', emoji: '🍜', label: 'Lomi' },

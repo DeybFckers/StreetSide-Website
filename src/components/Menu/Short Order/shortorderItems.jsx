@@ -1,11 +1,11 @@
-import bistektagalog from "../../../assets/Menu/Food Trays/bistektagalog.jpg";
-import bakareta from "../../../assets/Menu/Food Trays/bakareta.jpg";
-import cajunmixseafoods from "../../../assets/Menu/Food Trays/cajunmixseafoods.jpg";
-import lapulapu from "../../../assets/Menu/Food Trays/lapulapu.jpg";
-import orangechicken from "../../../assets/Menu/Food Trays/orangechicken.jpg"; 
+import bistektagalog from "../../../assets/Menu/ShortOrder/bistektagalog.jpg";
+import bakareta from "../../../assets/Menu/ShortOrder/bakareta.jpg";
+import cajunmixseafoods from "../../../assets/Menu/ShortOrder/cajunmixseafoods.jpg";
+import lapulapu from "../../../assets/Menu/ShortOrder/lapulapu.jpg";
+import orangechicken from "../../../assets/Menu/ShortOrder/orangechicken.jpg"; 
 import logo from "/logo.jpg"; 
 
-export const foodtraysItems = [
+export const shortorderItems = [
   {
     name: "Bistek Tagalog",
     price: 250,
@@ -14,7 +14,7 @@ export const foodtraysItems = [
   {
     name: "Chicken Afritada",
     price: 250,
-    image: bistektagalog,
+    image: logo,
   },
   {
     name: "Buffalo Chicken",
